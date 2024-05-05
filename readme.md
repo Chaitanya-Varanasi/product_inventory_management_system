@@ -1,4 +1,4 @@
-### product-controller
+### product apis
 - GET all products `:8080/api/products`
 - GET product `:8080/api/products/{productId}`
 - GET product thumbnail `:8080/api/products/thumbnail/{productId}`
@@ -10,7 +10,7 @@
 - DELETE supplier to product `:8080/api/products/{productId}/{supplierId}`
 
 
-### supplier-controller
+### supplier apis
 - GET all suppliers `:8080/api/supplier`
 - GET supplier `:8080/api/supplier/{supplierId}`
 - POST, add new supplier `:8080/api/supplier`
